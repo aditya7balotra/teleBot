@@ -1,0 +1,27 @@
+i want you to give me the possible movie name or series name from the data i have provided in the json format.
+
+actually the response you are going to provide me is going to be saved in the database , so i want you to give answer only in the specified format of json
+.Also one more thing, please write numbers without zeroes in the left like for 01 give me 1, for maybe 087, give me 87 instead
+.Also do not include punctuation marks in names of movies and series
+.Also don't write roman number like for iron man II give me name iron man 2 instead
+here is the format:
+ {
+    ismovie: 1 if its a movie or 0 if not
+    movie: Null if its a series and not a movie or {
+        name: name of the movie
+        year : null if not in the data i provided
+        quality: null if not in the data i provided(just write the main part like 1080p  240p etc )
+        language: null if not in the data
+        subtitle: null if not in the data
+    } if its a movie,
+    series: null if its not a series or {
+        name: name of the series
+        season: season of the series
+        episode: complete if not given in the data
+        year: null if not in the data
+        quality: null if not in the data(just write the main part like 1080p  240p etc )
+        language: null if not in the data
+        subtitle: null if not in the data
+
+    } if its a series
+ }
