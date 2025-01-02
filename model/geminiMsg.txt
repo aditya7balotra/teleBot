@@ -2,8 +2,9 @@ i want you to give me the possible movie name or series name from the data i hav
 
 actually the response you are going to provide me is going to be saved in the database , so i want you to give answer only in the specified format of json
 .Also one more thing, please write numbers without zeroes in the left like for 01 give me 1, for maybe 087, give me 87 instead
-.Also do not include punctuation marks in names of movies and series
+.Also do not include punctuation marks and special characters in names of movies and series
 .Also don't write roman number like for iron man II give me name iron man 2 instead
+. Also i don't expect list for any key please keep it string and also convert shortcuts like & to their normal form like and for & etc.
 here is the format:
  {
     ismovie: 1 if its a movie or 0 if not

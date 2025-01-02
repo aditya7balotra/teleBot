@@ -21,7 +21,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Table `telebot`.`all_records`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `telebot`.`all_records` ;
+-- DROP TABLE IF EXISTS `telebot`.`all_records` ;
 
 CREATE TABLE IF NOT EXISTS `telebot`.`all_records` (
   `sno` INT NOT NULL AUTO_INCREMENT,
@@ -36,7 +36,7 @@ DEFAULT CHARACTER SET = utf8mb3;
 -- -----------------------------------------------------
 -- Table `telebot`.`moviesdata`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `telebot`.`moviesdata` ;
+-- DROP TABLE IF EXISTS `telebot`.`moviesdata` ;
 
 CREATE TABLE IF NOT EXISTS `telebot`.`moviesdata` (
   `sno` INT NOT NULL AUTO_INCREMENT,
@@ -62,7 +62,7 @@ DEFAULT CHARACTER SET = utf8mb3;
 -- -----------------------------------------------------
 -- Table `telebot`.`seriesdata`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `telebot`.`seriesdata` ;
+-- DROP TABLE IF EXISTS `telebot`.`seriesdata` ;
 
 CREATE TABLE IF NOT EXISTS `telebot`.`seriesdata` (
   `sno` INT NOT NULL AUTO_INCREMENT,
