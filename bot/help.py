@@ -10,7 +10,7 @@ def send_welcome(message):
     # sending typing... gesture
     bot.send_chat_action(message.chat.id, 'typing')
     
-    print(message)
+    # print(message)
     
     # authentification
     status = auth(message.chat.id)
